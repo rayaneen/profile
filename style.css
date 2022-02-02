@@ -1,0 +1,153 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .sub-block {
+
+  }
+}
+
+body {
+  background-color: #E7EEED;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Varela', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: #F5F3F4;
+}
+
+
+.btn {
+  background-color: #212121;
+  color: #F0F3F5;
+  padding: 24px;
+  display: block;
+  margin: 28px auto;
+  text-align: center;
+  width: 16%;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.block {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.sub-block {
+float: left;
+flex: 1;
+width: 50%;
+}
+
+.right {
+  background-color: #F5F3F4 ;
+  text-align: center;
+}
+
+.left {
+  background-color: #A4161A;
+  color: #F5F3F4;
+  text-align: center;
+}
+
+.pic {
+  width: 30%;
+  border-radius: 50%;
+  filter: grayscale(90%);
+}
+
+h1 {
+  font-family: 'Varela', sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+  color: #F5F3F4;
+  text-align: left;
+  margin: 0% auto;
+}
+#hello {
+  padding: 24px;
+  display: block;
+  margin: 16px auto;
+  text-align: center;
+  width: 50%;
+}
+
+.about-me {
+  padding: 24px;
+  display: block;
+  margin: 16px auto;
+  text-align: center;
+}
+.about-me>p {
+  font-family: 'Varela', sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+  color: #BA181B;
+  text-align: left;
+  margin: 0% auto;
+}
+
+.hobbies {
+
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Varela', sans-serif;
+  text-align: center;
+  color: #BA181B;
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+.hobbies>ul {
+  list-style-type: none;
+  text-align: center;
+  padding:0;
+}
+.hobbies>ul>li {
+  padding: 0;
+  text-align: left;
+
+}
+
+.icons>li {
+  list-style-type: none;
+  display: inline;
+  font-size: 48px;
+  color: #BA181B;
+  padding-right: 12px;
+}
+.icons>li>a {
+  color: #BA181B;
+}
+.icons {
+  padding: 0;
+}
+/* .text-black {
+  color:#161A1D;
+} */
+/* .dot {
+  font-family: 'Varela', sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  color: #F5F3F4;
+} */
